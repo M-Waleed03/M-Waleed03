@@ -1,12 +1,12 @@
  <div align="center">
 
-<!-- <p align="center">
+<p align="center">
   <img
-    src="https://raw.githubusercontent.com/M-Waleed03/M-Waleed03/main/assets/profile-header.svg"
+    src="assets/profile-header.svg"
     width="100%"
     alt="Muhammad Waleed - Profile Header"
   />
-</p> -->
+</p>
 
 <br/>
 
