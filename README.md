@@ -2,7 +2,7 @@
 
 <p align="center">
   <img
-    src="assets/profile-banner.png"
+    src="assets/profile-header.svg"
     width="100%"
     alt="Muhammad Waleed - Profile Header"
   />
