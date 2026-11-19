@@ -1,1 +1,103 @@
 
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080d19"/>
+      <stop offset="55%" stop-color="#101326"/>
+      <stop offset="100%" stop-color="#071c2b"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="55%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <radialGradient id="purple">
+      <stop offset="0%" stop-color="#7439d9" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#7439d9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyan">
+      <stop offset="0%" stop-color="#0891b2" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#0891b2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#94a3b8" stroke-opacity=".09"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="330" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="18" fill="url(#grid)"/>
+  <ellipse cx="940" cy="85" rx="310" ry="230" fill="url(#purple)"/>
+  <ellipse cx="1080" cy="290" rx="260" ry="180" fill="url(#cyan)"/>
+
+  <!-- Decorative grid -->
+  <g fill="url(#glow)" opacity=".75">
+    <rect x="875" y="55" width="19" height="19" rx="5"/>
+    <rect x="902" y="55" width="19" height="19" rx="5"/>
+    <rect x="929" y="55" width="19" height="19" rx="5"/>
+    <rect x="956" y="55" width="19" height="19" rx="5"/>
+    <rect x="983" y="55" width="19" height="19" rx="5"/>
+    <rect x="1010" y="55" width="19" height="19" rx="5"/>
+    <rect x="1037" y="55" width="19" height="19" rx="5"/>
+    <rect x="1064" y="55" width="19" height="19" rx="5"/>
+
+    <rect x="875" y="82" width="19" height="19" rx="5"/>
+    <rect x="902" y="82" width="19" height="19" rx="5"/>
+    <rect x="929" y="82" width="19" height="19" rx="5"/>
+    <rect x="956" y="82" width="19" height="19" rx="5"/>
+    <rect x="983" y="82" width="19" height="19" rx="5"/>
+    <rect x="1010" y="82" width="19" height="19" rx="5"/>
+    <rect x="1037" y="82" width="19" height="19" rx="5"/>
+    <rect x="1064" y="82" width="19" height="19" rx="5"/>
+
+    <rect x="875" y="109" width="19" height="19" rx="5"/>
+    <rect x="902" y="109" width="19" height="19" rx="5"/>
+    <rect x="929" y="109" width="19" height="19" rx="5"/>
+    <rect x="956" y="109" width="19" height="19" rx="5"/>
+    <rect x="983" y="109" width="19" height="19" rx="5"/>
+    <rect x="1010" y="109" width="19" height="19" rx="5"/>
+    <rect x="1037" y="109" width="19" height="19" rx="5"/>
+    <rect x="1064" y="109" width="19" height="19" rx="5"/>
+
+    <rect x="875" y="136" width="19" height="19" rx="5"/>
+    <rect x="902" y="136" width="19" height="19" rx="5"/>
+    <rect x="929" y="136" width="19" height="19" rx="5"/>
+    <rect x="956" y="136" width="19" height="19" rx="5"/>
+    <rect x="983" y="136" width="19" height="19" rx="5"/>
+    <rect x="1010" y="136" width="19" height="19" rx="5"/>
+    <rect x="1037" y="136" width="19" height="19" rx="5"/>
+    <rect x="1064" y="136" width="19" height="19" rx="5"/>
+  </g>
+
+  <!-- Top accent -->
+  <path d="M0 34H110L140 64H330" fill="none" stroke="url(#glow)" stroke-width="2"/>
+  <circle cx="330" cy="64" r="4" fill="#38bdf8"/>
+
+  <!-- Status pill -->
+  <rect x="55" y="48" width="250" height="30" rx="15" fill="#171e2d" stroke="#334155"/>
+  <circle cx="73" cy="63" r="5" fill="#34d399"/>
+  <text x="88" y="68" font-family="Arial,sans-serif" font-size="12" fill="#cbd5e1">FULL-STACK · AI · COMPUTER VISION</text>
+
+  <!-- Main name -->
+  <text x="55" y="151" font-family="Arial,sans-serif" font-size="65" font-weight="700" fill="#f8fafc">Muhammad</text>
+  <text x="55" y="218" font-family="Arial,sans-serif" font-size="65" font-weight="700" fill="url(#glow)">Waleed</text>
+
+  <text x="59" y="253" font-family="Arial,sans-serif" font-size="19" fill="#cbd5e1">
+    Full-Stack Web Engineer
+  </text>
+  <text x="59" y="281" font-family="Arial,sans-serif" font-size="16" fill="#94a3b8">
+    AI · Machine Learning · Computer Vision · Image Processing
+  </text>
+
+  <!-- Right-side accent -->
+  <path d="M850 225L910 225L940 195L1150 195" stroke="#38bdf8" stroke-opacity=".55" fill="none"/>
+  <path d="M850 245L920 245L950 215L1150 215" stroke="#a855f7" stroke-opacity=".55" fill="none"/>
+  <circle cx="850" cy="225" r="4" fill="#38bdf8"/>
+  <circle cx="850" cy="245" r="4" fill="#a855f7"/>
+
+  <text x="875" y="250" font-family="monospace" font-size="13" fill="#c4b5fd">BUILDING</text>
+  <text x="875" y="274" font-family="monospace" font-size="17" font-weight="bold" fill="#e2e8f0">INTELLIGENT</text>
+  <text x="875" y="298" font-family="monospace" font-size="17" font-weight="bold" fill="#38bdf8">SOLUTIONS_</text>
+
+  <rect x="1" y="1" width="1198" height="328" rx="18" fill="none" stroke="#334155" stroke-opacity=".8"/>
+</svg>
+
