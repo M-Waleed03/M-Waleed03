@@ -1,11 +1,11 @@
  <div align="center">
 
-<img src="assets/profile-banner.png" width="100%" alt="Muhammad Waleed - Full-Stack Web Engineer and AI Enthusiast" />
+<img src="profile-banner.png" width="100%" alt="Muhammad Waleed - Full-Stack Web Engineer and AI Enthusiast" />
 
 <br/>
 
 <a href="https://github.com/M-Waleed03">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=750&lines=Full-Stack+Web+Engineer;AI+%26+Machine+Learning+Enthusiast;Computer+Vision+Explorer;Building+Intelligent+Solutions" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=750&lines=Full-Stack+Web+Engineer;Computer+Vision+Explorer;AI+%26+Machine+Learning+Enthusiast;Building+Intelligent+Solutions" alt="Typing animation" />
 </a>
 
 <p>
@@ -129,7 +129,7 @@ Integrated and executed a pretrained SNUNet-CD model to generate binary change m
 
 University of South Asia, Pakistan
 
-**2026 | CGPA: 3.70 / 4.00**
+**2026 | CGPA: 3.74 / 4.00**
 
 Relevant Coursework:
 - Artificial Intelligence
