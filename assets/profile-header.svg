@@ -79,7 +79,7 @@
           stroke="#A78BFA" stroke-opacity=".4" fill="none" stroke-width="1.5"/>
 
     <!-- LEFT: status -->
-    <rect x="62" y="47" width="282" height="31" rx="15.5"
+    <rect x="62" y="47" width="312" height="31" rx="15.5"
           fill="#182337" stroke="#334155" stroke-opacity=".8"/>
 
     <circle cx="81" cy="62.5" r="5" fill="#34D399" filter="url(#glow)">
@@ -89,7 +89,7 @@
 
     <text x="97" y="67" fill="#C6D5E8"
           font-family="Inter,Segoe UI,Arial,sans-serif"
-          font-size="12" letter-spacing="1.4">
+          font-size="12" letter-spacing="1">
       ENGINEERING · RESEARCH · INNOVATION
     </text>
 
