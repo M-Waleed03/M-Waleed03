@@ -1,12 +1,12 @@
  <div align="center">
 
-<p align="center">
+<!-- <p align="center">
   <img
     src="https://raw.githubusercontent.com/M-Waleed03/M-Waleed03/main/assets/profile-header.svg"
     width="100%"
     alt="Muhammad Waleed - Profile Header"
   />
-</p>
+</p> -->
 
 <br/>
 
@@ -27,7 +27,7 @@
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 I'm Muhammad Waleed, a Computer Science graduate from the University of South Asia (2026) and a Full-Stack Web Engineer at The Byte Systems, passionate about building intelligent applications and exploring Artificial Intelligence, Machine Learning, Computer Vision, and Deep Learning. I continuously work on expanding my technical skills and developing practical AI solutions, with the goal of combining software engineering and artificial intelligence to solve real-world problems and grow as an AI & Computer Vision Engineer.
 
@@ -35,7 +35,7 @@ I'm Muhammad Waleed, a Computer Science graduate from the University of South As
 
 ---
 
-## ⚡ Technology Stack
+## Technology Stack
 
 ### Programming Languages
 
