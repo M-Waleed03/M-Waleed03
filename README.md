@@ -1,6 +1,12 @@
  <div align="center">
 
-<img src="profile-banner.png" width="100%" alt="Muhammad Waleed - Full-Stack Web Engineer and Computer Vision Enthusiast" />
+<div align="center">
+  <img
+    src="./assets/profile-banner.png"
+    width="100%"
+    alt="Muhammad Waleed - AI and Computer Vision"
+  />
+</div>
 
 <br/>
 
