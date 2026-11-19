@@ -29,14 +29,7 @@
 
 ## 👨‍💻 About Me
 
-I'm **Muhammad Waleed**, a Computer Science graduate and Full-Stack Web Engineer from Pakistan, passionate about building intelligent applications and exploring Artificial Intelligence.
-
-- 🎓 BS Computer Science — University of South Asia, 2026
-- 💻 Full-Stack Web Engineer at The Byte Systems
-- 🤖 Interested in Artificial Intelligence and Machine Learning
-- 👁️ Exploring Computer Vision and Deep Learning
-- 🌱 Continuously learning and building practical AI solutions
-- 🎯 Aspiring AI & Computer Vision Engineer
+I'm Muhammad Waleed, a Computer Science graduate from the University of South Asia (2026) and a Full-Stack Web Engineer at The Byte Systems, passionate about building intelligent applications and exploring Artificial Intelligence, Machine Learning, Computer Vision, and Deep Learning. I continuously work on expanding my technical skills and developing practical AI solutions, with the goal of combining software engineering and artificial intelligence to solve real-world problems and grow as an AI & Computer Vision Engineer.
 
 > My goal is to combine software engineering and artificial intelligence to solve real-world problems.
 
