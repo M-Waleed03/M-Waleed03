@@ -1,102 +1,263 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="380"
+     viewBox="0 0 1200 380"
+     preserveAspectRatio="xMidYMid meet"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">Muhammad Waleed — Full-Stack Web Engineer and AI Enthusiast</title>
+  <desc id="desc">A futuristic animated technology header featuring neural network orbits, data particles, and professional specializations.</desc>
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080d19"/>
-      <stop offset="55%" stop-color="#101326"/>
-      <stop offset="100%" stop-color="#071c2b"/>
+    <!-- Background -->
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070B16"/>
+      <stop offset="52%" stop-color="#10162B"/>
+      <stop offset="100%" stop-color="#071D2B"/>
     </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2563eb"/>
-      <stop offset="55%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#a855f7"/>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="48%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+      <animate attributeName="x1" values="0;0.3;0" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
-    <radialGradient id="purple">
-      <stop offset="0%" stop-color="#7439d9" stop-opacity=".35"/>
-      <stop offset="100%" stop-color="#7439d9" stop-opacity="0"/>
+
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity=".8"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="ambient">
+      <stop offset="0%" stop-color="#4338CA" stop-opacity=".36"/>
+      <stop offset="100%" stop-color="#4338CA" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="cyan">
-      <stop offset="0%" stop-color="#0891b2" stop-opacity=".24"/>
-      <stop offset="100%" stop-color="#0891b2" stop-opacity="0"/>
+
+    <radialGradient id="ambient2">
+      <stop offset="0%" stop-color="#0891B2" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#0891B2" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#94a3b8" stroke-opacity=".09"/>
+
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+
+    <pattern id="microGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none"
+            stroke="#94A3B8" stroke-opacity=".055" stroke-width="1"/>
     </pattern>
+
+    <clipPath id="canvas">
+      <rect width="1200" height="380" rx="22"/>
+    </clipPath>
   </defs>
 
-  <rect width="1200" height="330" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="330" rx="18" fill="url(#grid)"/>
-  <ellipse cx="940" cy="85" rx="310" ry="230" fill="url(#purple)"/>
-  <ellipse cx="1080" cy="290" rx="260" ry="180" fill="url(#cyan)"/>
+  <g clip-path="url(#canvas)">
 
-  <!-- Decorative grid -->
-  <g fill="url(#glow)" opacity=".75">
-    <rect x="875" y="55" width="19" height="19" rx="5"/>
-    <rect x="902" y="55" width="19" height="19" rx="5"/>
-    <rect x="929" y="55" width="19" height="19" rx="5"/>
-    <rect x="956" y="55" width="19" height="19" rx="5"/>
-    <rect x="983" y="55" width="19" height="19" rx="5"/>
-    <rect x="1010" y="55" width="19" height="19" rx="5"/>
-    <rect x="1037" y="55" width="19" height="19" rx="5"/>
-    <rect x="1064" y="55" width="19" height="19" rx="5"/>
+    <!-- Base -->
+    <rect width="1200" height="380" fill="url(#background)"/>
+    <rect width="1200" height="380" fill="url(#microGrid)"/>
 
-    <rect x="875" y="82" width="19" height="19" rx="5"/>
-    <rect x="902" y="82" width="19" height="19" rx="5"/>
-    <rect x="929" y="82" width="19" height="19" rx="5"/>
-    <rect x="956" y="82" width="19" height="19" rx="5"/>
-    <rect x="983" y="82" width="19" height="19" rx="5"/>
-    <rect x="1010" y="82" width="19" height="19" rx="5"/>
-    <rect x="1037" y="82" width="19" height="19" rx="5"/>
-    <rect x="1064" y="82" width="19" height="19" rx="5"/>
+    <ellipse cx="940" cy="150" rx="330" ry="260" fill="url(#ambient)"/>
+    <ellipse cx="1080" cy="340" rx="280" ry="180" fill="url(#ambient2)"/>
 
-    <rect x="875" y="109" width="19" height="19" rx="5"/>
-    <rect x="902" y="109" width="19" height="19" rx="5"/>
-    <rect x="929" y="109" width="19" height="19" rx="5"/>
-    <rect x="956" y="109" width="19" height="19" rx="5"/>
-    <rect x="983" y="109" width="19" height="19" rx="5"/>
-    <rect x="1010" y="109" width="19" height="19" rx="5"/>
-    <rect x="1037" y="109" width="19" height="19" rx="5"/>
-    <rect x="1064" y="109" width="19" height="19" rx="5"/>
+    <!-- Decorative corner lines -->
+    <path d="M0 105V24Q0 0 24 0H240"
+          stroke="#38BDF8" stroke-opacity=".45" fill="none" stroke-width="1.5"/>
+    <path d="M960 380H1176Q1200 380 1200 356V280"
+          stroke="#A78BFA" stroke-opacity=".4" fill="none" stroke-width="1.5"/>
 
-    <rect x="875" y="136" width="19" height="19" rx="5"/>
-    <rect x="902" y="136" width="19" height="19" rx="5"/>
-    <rect x="929" y="136" width="19" height="19" rx="5"/>
-    <rect x="956" y="136" width="19" height="19" rx="5"/>
-    <rect x="983" y="136" width="19" height="19" rx="5"/>
-    <rect x="1010" y="136" width="19" height="19" rx="5"/>
-    <rect x="1037" y="136" width="19" height="19" rx="5"/>
-    <rect x="1064" y="136" width="19" height="19" rx="5"/>
+    <!-- LEFT: status -->
+    <rect x="62" y="47" width="282" height="31" rx="15.5"
+          fill="#182337" stroke="#334155" stroke-opacity=".8"/>
+
+    <circle cx="81" cy="62.5" r="5" fill="#34D399" filter="url(#glow)">
+      <animate attributeName="opacity"
+               values="1;.45;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="97" y="67" fill="#C6D5E8"
+          font-family="Inter,Segoe UI,Arial,sans-serif"
+          font-size="12" letter-spacing="1.4">
+      ENGINEERING · RESEARCH · INNOVATION
+    </text>
+
+    <!-- Main typography -->
+    <text x="59" y="161"
+          fill="#F8FAFC"
+          font-family="Inter,Segoe UI,Arial,sans-serif"
+          font-size="66"
+          font-weight="800"
+          letter-spacing="-2.5">
+      Muhammad
+    </text>
+
+    <text x="59" y="229"
+          fill="url(#accent)"
+          font-family="Inter,Segoe UI,Arial,sans-serif"
+          font-size="66"
+          font-weight="800"
+          letter-spacing="-2.5">
+      Waleed
+    </text>
+
+    <!-- Underline -->
+    <rect x="63" y="249" width="245" height="3" rx="2" fill="url(#accent)">
+      <animate attributeName="width"
+               values="110;245;190;245" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="63" y="284"
+          fill="#E2E8F0"
+          font-family="Inter,Segoe UI,Arial,sans-serif"
+          font-size="20" font-weight="600">
+      Full-Stack Web Engineer
+    </text>
+
+    <text x="63" y="311"
+          fill="#94A3B8"
+          font-family="Inter,Segoe UI,Arial,sans-serif"
+          font-size="15">
+      AI · Machine Learning · Computer Vision
+    </text>
+
+    <text x="63" y="334"
+          fill="#94A3B8"
+          font-family="Inter,Segoe UI,Arial,sans-serif"
+          font-size="15">
+      Image Processing · Intelligent Applications
+    </text>
+
+    <!-- Vertical divider -->
+    <path d="M630 55V325" stroke="#64748B" stroke-opacity=".2"
+          stroke-dasharray="3 8"/>
+
+    <!-- RIGHT: orbital neural visualization -->
+
+    <!-- Ambient glow -->
+    <circle cx="900" cy="183" r="158"
+            fill="#6366F1" opacity=".09" filter="url(#softGlow)"/>
+
+    <!-- Orbit rings -->
+    <ellipse cx="920" cy="181" rx="205" ry="75"
+             fill="none" stroke="#38BDF8" stroke-opacity=".36"
+             stroke-width="1.5" transform="rotate(-25 920 181)"/>
+
+    <ellipse cx="920" cy="181" rx="205" ry="75"
+             fill="none" stroke="#A78BFA" stroke-opacity=".38"
+             stroke-width="1.5" transform="rotate(35 920 181)">
+      <animateTransform attributeName="transform"
+                        type="rotate"
+                        from="35 920 181"
+                        to="395 920 181"
+                        dur="35s"
+                        repeatCount="indefinite"/>
+    </ellipse>
+
+    <ellipse cx="920" cy="181" rx="140" ry="140"
+             fill="none" stroke="#94A3B8" stroke-opacity=".16"
+             stroke-dasharray="3 9"/>
+
+    <!-- Orbiting particle -->
+    <circle r="6" fill="#67E8F9" filter="url(#glow)">
+      <animateMotion dur="12s" repeatCount="indefinite"
+                     path="M715 181 A205 75 -25 1 1 1125 181 A205 75 -25 1 1 715 181"/>
+    </circle>
+
+    <circle r="4" fill="#C084FC" filter="url(#glow)">
+      <animateMotion dur="17s" repeatCount="indefinite"
+                     path="M920 41 A140 140 0 1 1 919.9 41"/>
+    </circle>
+
+    <!-- Neural connections -->
+    <g stroke="#38BDF8" stroke-opacity=".5" stroke-width="1.5" fill="none">
+      <path d="M790 110L865 150L950 100L1040 140"/>
+      <path d="M790 110L850 225L950 100"/>
+      <path d="M865 150L850 225L980 240L1040 140"/>
+      <path d="M950 100L980 240"/>
+      <path d="M850 225L920 300L980 240"/>
+      <path d="M1040 140L1080 220L980 240"/>
+      <path d="M865 150L920 300"/>
+    </g>
+
+    <!-- Animated data pulses -->
+    <g fill="none" stroke="#67E8F9" stroke-width="2" stroke-linecap="round">
+      <path d="M790 110L865 150">
+        <animate attributeName="stroke-opacity"
+                 values=".1;1;.1" dur="2.8s" repeatCount="indefinite"/>
+      </path>
+      <path d="M865 150L950 100">
+        <animate attributeName="stroke-opacity"
+                 values=".1;1;.1" dur="3.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M850 225L980 240">
+        <animate attributeName="stroke-opacity"
+                 values=".1;1;.1" dur="2.5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- Neural nodes -->
+    <g fill="#101A30" stroke="#67E8F9" stroke-width="2">
+      <circle cx="790" cy="110" r="9"/>
+      <circle cx="865" cy="150" r="11"/>
+      <circle cx="950" cy="100" r="9"/>
+      <circle cx="1040" cy="140" r="11"/>
+      <circle cx="850" cy="225" r="10"/>
+      <circle cx="980" cy="240" r="12"/>
+      <circle cx="1080" cy="220" r="8"/>
+      <circle cx="920" cy="300" r="8"/>
+    </g>
+
+    <g fill="#67E8F9" filter="url(#glow)">
+      <circle cx="790" cy="110" r="3"/>
+      <circle cx="865" cy="150" r="4"/>
+      <circle cx="950" cy="100" r="3"/>
+      <circle cx="1040" cy="140" r="4"/>
+      <circle cx="850" cy="225" r="3"/>
+      <circle cx="980" cy="240" r="4"/>
+      <circle cx="1080" cy="220" r="3"/>
+      <circle cx="920" cy="300" r="3"/>
+    </g>
+
+    <!-- Pulsing central node -->
+    <circle cx="920" cy="181" r="25" fill="#6366F1" opacity=".15">
+      <animate attributeName="r" values="18;33;18"
+               dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".3;.03;.3"
+               dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="920" cy="181" r="12" fill="#111C34"
+            stroke="#A78BFA" stroke-width="2" filter="url(#glow)"/>
+    <circle cx="920" cy="181" r="4" fill="#C4B5FD"/>
+
+    <!-- Scanning beam -->
+    <rect x="700" y="60" width="410" height="2"
+          fill="url(#beam)" opacity=".65">
+      <animate attributeName="y"
+               values="65;295;65" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Right-side label -->
+    <text x="920" y="357" text-anchor="middle"
+          fill="#94A3B8" font-family="monospace"
+          font-size="10" letter-spacing="3">
+      CONNECTING IDEAS · BUILDING INTELLIGENCE
+    </text>
+
+    <!-- Border -->
+    <rect x="1" y="1" width="1198" height="378" rx="21"
+          fill="none" stroke="#64748B" stroke-opacity=".35"/>
   </g>
-
-  <!-- Top accent -->
-  <path d="M0 34H110L140 64H330" fill="none" stroke="url(#glow)" stroke-width="2"/>
-  <circle cx="330" cy="64" r="4" fill="#38bdf8"/>
-
-  <!-- Status pill -->
-  <rect x="55" y="48" width="250" height="30" rx="15" fill="#171e2d" stroke="#334155"/>
-  <circle cx="73" cy="63" r="5" fill="#34d399"/>
-  <text x="88" y="68" font-family="Arial,sans-serif" font-size="12" fill="#cbd5e1">FULL-STACK · AI · COMPUTER VISION</text>
-
-  <!-- Main name -->
-  <text x="55" y="151" font-family="Arial,sans-serif" font-size="65" font-weight="700" fill="#f8fafc">Muhammad</text>
-  <text x="55" y="218" font-family="Arial,sans-serif" font-size="65" font-weight="700" fill="url(#glow)">Waleed</text>
-
-  <text x="59" y="253" font-family="Arial,sans-serif" font-size="19" fill="#cbd5e1">
-    Full-Stack Web Engineer
-  </text>
-  <text x="59" y="281" font-family="Arial,sans-serif" font-size="16" fill="#94a3b8">
-    AI · Machine Learning · Computer Vision · Image Processing
-  </text>
-
-  <!-- Right-side accent -->
-  <path d="M850 225L910 225L940 195L1150 195" stroke="#38bdf8" stroke-opacity=".55" fill="none"/>
-  <path d="M850 245L920 245L950 215L1150 215" stroke="#a855f7" stroke-opacity=".55" fill="none"/>
-  <circle cx="850" cy="225" r="4" fill="#38bdf8"/>
-  <circle cx="850" cy="245" r="4" fill="#a855f7"/>
-
-  <text x="875" y="250" font-family="monospace" font-size="13" fill="#c4b5fd">BUILDING</text>
-  <text x="875" y="274" font-family="monospace" font-size="17" font-weight="bold" fill="#e2e8f0">INTELLIGENT</text>
-  <text x="875" y="298" font-family="monospace" font-size="17" font-weight="bold" fill="#38bdf8">SOLUTIONS_</text>
-
-  <rect x="1" y="1" width="1198" height="328" rx="18" fill="none" stroke="#334155" stroke-opacity=".8"/>
 </svg>
