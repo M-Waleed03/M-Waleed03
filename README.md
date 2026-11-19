@@ -1,12 +1,12 @@
  <div align="center">
 
-<div align="center">
+<p align="center">
   <img
-    src="./assets/profile-banner.png"
+    src="https://raw.githubusercontent.com/M-Waleed03/M-Waleed03/main/assets/profile-header.svg"
     width="100%"
-    alt="Muhammad Waleed - AI and Computer Vision"
+    alt="Muhammad Waleed - Profile Header"
   />
-</div>
+</p>
 
 <br/>
 
