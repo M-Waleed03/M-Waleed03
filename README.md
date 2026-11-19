@@ -15,7 +15,7 @@
 </a>
 
 <p>
-  <a href="https://m-waleed-dev.vercel.app">
+  <a href="https://m-waleed-dev.vercel.app" target="blank">
     <img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <a href="https://github.com/M-Waleed03">
