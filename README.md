@@ -1,6 +1,6 @@
  <div align="center">
 
-<img src="profile-banner.png" width="100%" alt="Muhammad Waleed - Full-Stack Web Engineer and AI Enthusiast" />
+<img src="profile-banner.png" width="100%" alt="Muhammad Waleed - Full-Stack Web Engineer and Computer Vision Enthusiast" />
 
 <br/>
 
@@ -9,7 +9,7 @@
 </a>
 
 <p>
-  <a href="https://my-portfolio-chi-nine-90.vercel.app">
+  <a href="https://m-waleed-dev.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <a href="https://github.com/M-Waleed03">
