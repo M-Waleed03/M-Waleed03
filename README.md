@@ -1,13 +1,21 @@
  <div align="center">
 
-# Hi, I'm Muhammad Waleed 👋
+<img src="assets/profile-banner.png" width="100%" alt="Muhammad Waleed - Full-Stack Web Engineer and AI Enthusiast" />
 
-### Full-Stack Web Engineer | AI & Computer Vision Enthusiast
+<br/>
 
-Building modern web applications and exploring intelligent systems through Machine Learning and Computer Vision.
+<a href="https://github.com/M-Waleed03">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=750&lines=Full-Stack+Web+Engineer;AI+%26+Machine+Learning+Enthusiast;Computer+Vision+Explorer;Building+Intelligent+Solutions" alt="Typing animation" />
+</a>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=vercel)](https://my-portfolio-chi-nine-90.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/M-Waleed03)
+<p>
+  <a href="https://my-portfolio-chi-nine-90.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://github.com/M-Waleed03">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 </div>
 
@@ -15,78 +23,115 @@ Building modern web applications and exploring intelligent systems through Machi
 
 ## 👨‍💻 About Me
 
-I'm a Computer Science graduate from the University of South Asia, Pakistan, with a strong interest in Artificial Intelligence, Machine Learning, and Computer Vision.
+I'm **Muhammad Waleed**, a Computer Science graduate and Full-Stack Web Engineer from Pakistan, passionate about building intelligent applications and exploring Artificial Intelligence.
 
-- 💻 Working as a Full-Stack Web Engineer.
-- 🤖 Interested in AI, Machine Learning, and Computer Vision.
-- 🧠 Exploring intelligent systems and real-world problem solving.
-- 🌱 Continuously learning Python, Deep Learning, and Computer Vision.
-- 🎯 Career goal: Become an AI and Computer Vision Engineer.
-- 📍 Based in Lahore, Pakistan.
+- 🎓 BS Computer Science — University of South Asia, 2026
+- 💻 Full-Stack Web Engineer at The Byte Systems
+- 🤖 Interested in Artificial Intelligence and Machine Learning
+- 👁️ Exploring Computer Vision and Deep Learning
+- 🌱 Continuously learning and building practical AI solutions
+- 🎯 Aspiring AI & Computer Vision Engineer
+
+> My goal is to combine software engineering and artificial intelligence to solve real-world problems.
 
 ---
 
-## 🛠️ Tech Stack
+## ⚡ Technology Stack
 
 ### Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-### AI / Machine Learning / Computer Vision
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=python,js,ts,html,css" />
+</p>
+
+### AI, Machine Learning & Computer Vision
+
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch,opencv,tensorflow" />
+</p>
+
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-### Web Development
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+### Full-Stack Development
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind,fastapi,firebase" />
+</p>
 
 ### Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,postman,figma" />
+</p>
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🏥 MEDISENSE – AI Healthcare Assistant
-An AI-powered healthcare project designed to assist users with symptom analysis and medical report interpretation.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Technologies:** Next.js, FastAPI, Python, Machine Learning, OCR, Firebase.
+### 🏥 MEDISENSE
+
+**AI Healthcare Assistant**
+
+An AI-powered healthcare project designed to assist with symptom analysis and medical report interpretation.
+
+**Tech:** Next.js · FastAPI · Python · OCR · Firebase
+
+</td>
+<td width="50%" valign="top">
 
 ### 🩺 Heart Disease Prediction
-A machine learning project exploring heart disease prediction using classification models and neural networks.
 
-**Technologies:** Python, Scikit-learn, Machine Learning.
+**Machine Learning**
+
+A classification-based machine learning project exploring heart disease prediction using clinical data.
+
+**Tech:** Python · Scikit-learn · Neural Networks
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 🧬 Retinal Blood Vessel Segmentation
-Implemented and executed a pretrained U-Net-based segmentation pipeline using PyTorch and MONAI. Generated prediction masks and visual comparisons across 20 DRIVE test images.
 
-**Technologies:** Python, PyTorch, MONAI, OpenCV, Computer Vision.
+**Computer Vision**
+
+Executed a pretrained U-Net segmentation pipeline across 20 DRIVE test images, generating segmentation masks and visual comparisons.
+
+**Tech:** PyTorch · MONAI · OpenCV
+
+</td>
+<td width="50%" valign="top">
 
 ### 🛰️ Satellite Image Change Detection
+
+**Deep Learning**
+
 Integrated and executed a pretrained SNUNet-CD model to generate binary change maps from multi-temporal satellite imagery.
 
-**Technologies:** Python, PyTorch, SNUNet-CD, Computer Vision.
+**Tech:** PyTorch · SNUNet-CD · Python
 
-> Project repositories will be linked here as they are published.
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🎓 Education
 
-**Bachelor of Science in Computer Science (BSCS)**  
-University of South Asia, Pakistan  
-2026 | CGPA: 3.74 / 4.00
+**Bachelor of Science in Computer Science**
 
-Relevant academic areas:
+University of South Asia, Pakistan
+
+**2026 | CGPA: 3.70 / 4.00**
+
+Relevant Coursework:
 - Artificial Intelligence
 - Machine Learning
 - Digital Image Processing
@@ -99,53 +144,62 @@ Relevant academic areas:
 
 ## 💼 Professional Experience
 
-**Full-Stack Web Engineer**  
-The Byte Systems
+**Full-Stack Web Engineer — The Byte Systems**
 
 - Developing web applications for international clients.
-- Building responsive interfaces and full-stack features.
+- Building responsive and modern web interfaces.
 - Integrating AI-powered features and external APIs.
-- Working with modern JavaScript frameworks and backend technologies.
+- Working across frontend and backend technologies.
 
 ---
 
-## 📊 GitHub Statistics
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=M-Waleed03&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub statistics" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=M-Waleed03&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub statistics" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-Waleed03&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-Waleed03&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
 
-<img width="70%" src="https://streak-stats.demolab.com?user=M-Waleed03&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
+<br/><br/>
+
+<img width="70%" src="https://streak-stats.demolab.com?user=M-Waleed03&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
 </div>
 
 ---
 
-## 📈 Contribution Activity
+## 🌌 Contribution Graph
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=M-Waleed03&theme=tokyo-night&hide_border=true" width="100%" alt="GitHub contribution activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=M-Waleed03&bg_color=1a1b27&color=38bdf8&line=7c3aed&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution graph" />
 
 </div>
 
 ---
 
-## 🤝 Connect With Me
+## 🤝 Let's Connect
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://my-portfolio-chi-nine-90.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/M-Waleed03)
+<a href="https://github.com/M-Waleed03">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://my-portfolio-chi-nine-90.vercel.app">
+  <img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
 
 </div>
 
+---
+
 <div align="center">
 
-### Thanks for visiting my profile! 🚀
+### 💡 Code • Innovate • Explore
 
-*Always learning. Always building. Always exploring.*
+*Building today. Innovating for tomorrow.*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:2563EB,100:7C3AED&height=100&section=footer" width="100%" />
 
 </div>
